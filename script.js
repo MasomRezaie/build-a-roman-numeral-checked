@@ -37,11 +37,9 @@ convertBtn.addEventListener('click', (e) => {
   if (Number.isNaN(inputValue)) {
     outputElement.textContent = 'Please enter a valid number';
   } else if (inputValue < 1) {
-    outputElement.textContent=
-      'Please enter a number greater than or equal to 1';
+    outputElement.textContent = 'Please enter a number greater than or equal to 1';
   } else if (inputValue > 3999) {
-    outputElement.textContent=
-      'Please enter a number less than or equal to 3999';
+    outputElement.textContent = 'Please enter a number less than or equal to 3999';
   } else {
     outputElement.textContent = convertToRoman(inputValue);
   }
