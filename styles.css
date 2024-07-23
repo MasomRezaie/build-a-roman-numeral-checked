@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -22,8 +22,8 @@ body {
 h1 {
   font-size: 30px;
   text-align: center;
-  padding: 20px 20px 0px 20px;
-  margin: 20px 20px 0px 20px;
+  padding: 20px ;
+  margin: 20px ;
   color: rgb(59, 180, 3);
 }
 
@@ -32,7 +32,8 @@ h1 {
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
-  border-radius: 8px;   
+  border-radius: 8px;
+    
   box-shadow: 5px 5px 10px rgba(150, 149, 149, 0.1);
 }
 
@@ -47,7 +48,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  margin: 10px 0px;
+  margin: 10px;
   background-color: #038e0c;
   color: #fff;
   border: none;
@@ -58,9 +59,9 @@ button {
 button:hover {
   background-color: #05970e;
 }
-  
+
 .output {
-  padding: 10px ;
+  padding: 10px;
   height: 38px;
   margin-top: 10px;
   background-color: #f9f9f9;
