@@ -1,22 +1,24 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
   }
-.Body{
-    border: 1px solid rgb(224, 226, 227);
-    border-radius: 11px;
-    width: 45%;
-    margin: 0 auto;
-    margin-top: 36px;
-    box-shadow: 2px 5px 2px 7px rgb(232, 229, 229);
-    background-color: #01050edc;
+  
+.Body {
+  border: 1px solid rgb(224, 226, 227);
+  border-radius: 11px;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 36px;
+  box-shadow: 2px 5px 2px 7px rgb(232, 229, 229);
+  background-color: #01050edc;
 }
-  h1 {
+  /* h1 {
     font-size: 30px;
     text-align: center;
     padding: 20px 20px 0px 20px;
@@ -65,4 +67,4 @@ body {
     text-align: center;
     color: rgb(4, 156, 4);
     margin-top: 24px;
-  }
+  } */
