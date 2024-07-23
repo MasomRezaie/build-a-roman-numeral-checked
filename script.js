@@ -31,8 +31,8 @@ function convertToRoman(num) {
   return result;
 }
 
-// convertBtn.addEventListener("click", (e) => {
-//   const inputValue = parseInt(numberInput.value);
+convertBtn.addEventListener("click", (e) => {
+  const inputValue = parseInt(numberInput.value);
 
 //   if (isNaN(inputValue)) {
 //     outputElement.textContent = "Please enter a valid number";
