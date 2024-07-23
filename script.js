@@ -21,15 +21,15 @@ function convertToRoman(num) {
 
   let result = "";
 
-//   for (let i = 0; i < romanNumerals.length; i++) {
-//     while (num >= romanNumerals[i].value) {
-//       result += romanNumerals[i].symbol;
+  for (let i = 0; i < romanNumerals.length; i++) {
+    while (num >= romanNumerals[i].value) {
+      result += romanNumerals[i].symbol;
 
-//       num -= romanNumerals[i].value;
-//     }
-//   }
-//   return result;
-// }
+      num -= romanNumerals[i].value;
+    }
+  }
+  return result;
+}
 
 // convertBtn.addEventListener("click", (e) => {
 //   const inputValue = parseInt(numberInput.value);
