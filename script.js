@@ -19,7 +19,7 @@ function convertToRoman(num) {
     { value: 1, symbol: "I" },
   ];
 
-//   let result = "";
+  let result = "";
 
 //   for (let i = 0; i < romanNumerals.length; i++) {
 //     while (num >= romanNumerals[i].value) {
