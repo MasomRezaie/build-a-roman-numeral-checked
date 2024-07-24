@@ -31,7 +31,7 @@ function convertToRoman(num) {
   return result;
 }
 
-convertBtn.addEventListener('click', (e) => {
+convertBtn.addEventListener('click', () => {
   const inputValue = parseInt(numberInput.value, 10);
 
   if (Number.isNaN(inputValue)) {
